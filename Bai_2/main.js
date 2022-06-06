@@ -35,8 +35,8 @@ function change_color(){
     // const back_group = document.querySelector("#body")
     // const color_display = document.getElementsByClassName("color_display")
     // const name_color = document.getElementById("name_color")
-    change(Colot_day[ramdomNumber].color)
-    change(Colot_day[ramdomNumber].Name) 
+    change(Colot_day[ramdomNumber].color,Colot_day[ramdomNumber].Name)
+    // change(Colot_day[ramdomNumber].Name) 
 }
 
 function ramdomNumber_get(num){
@@ -49,7 +49,7 @@ function change(color,name){
     if(ele){
         ele.style.background = color
         document.getElementById("name_color").innerText = color
-        document.getElementById("ma_color").innerText = Name
+        document.getElementById("ma_color").innerText = name
     }
 }
 
