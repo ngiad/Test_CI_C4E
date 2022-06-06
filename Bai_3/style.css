@@ -84,7 +84,11 @@ body{
     color: #ffffff;
     width: 300px;
 }
-
+.content_left > img{
+    position: absolute;
+    top: 41%; 
+    left: 41%;
+}
 .content_left button{
     Width:199px;
     Height:40px;
@@ -267,8 +271,11 @@ body{
         position: absolute;
         left: 65%;
     }
-    
-
+    .content_left > img{
+        position: absolute;
+        top: 44%; 
+        left: 60%;
+    }
 }
 
 
@@ -289,5 +296,18 @@ body{
     .header li i {
         position: absolute;
         left: 55%;
+    }
+    .content_left > img{
+        position: absolute;
+        top: 44%; 
+        left: 60%;
+    }
+    .footer{
+        display: block;
+        margin-left: 180px;
+    }
+    .header li i {
+        position: absolute;
+        left: 65%;
     }
 }
