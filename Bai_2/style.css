@@ -1,6 +1,15 @@
-.color_display{
+.content{
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    margin: auto;
+    justify-content: center;
+}
+
+
+/* #color_display{
     width: 30px;
     height: 30px;
     border: 3px solid tomato;
-}
+} */
 

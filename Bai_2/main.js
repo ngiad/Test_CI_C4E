@@ -65,7 +65,6 @@ function change(color,name){
         ele.style.background = color
         document.getElementById("name_color").innerText = color
         document.getElementById("ma_color").innerText = name
-        document.getElementsByClassName("color_display").style.background = color
     }
 }
 
