@@ -1,7 +1,7 @@
 const Colot_day = [
     {
         color : "#333",
-        Name: "Đen Sáng"
+        Name: "Đen Sáng",
     },
     {
         color : "#fff",
@@ -9,25 +9,40 @@ const Colot_day = [
     },
     {
         color : "#ccc",
-        Name: "Xám"
+        Name: "Xám",
     },
     {
         color : "blue",
-        Name: "Màu Xanh nước biển"
+        Name: "Màu Xanh nước biển",
     },
     {
         color : "pink",
-        Name: "Màu Hồng"
-    },
-    {
-        colors: "#cb202d",
-        Name  : "Career",
-
+        Name: "Màu Hồng",
     },
     {
         color: "#70e1f5",
-        Name : "Nước"
-    }
+        Name : "Nước",
+    },
+    {
+        color: "linear-gradient(to right, red , yellow)",
+        Name : "linear-gradient",
+    },
+    {
+        color: "#C0C0C0",
+        Name : "Silver",
+    },
+    {
+        color: "linear-gradient(red, yellow, green)",
+        Name : "linear-gradient",
+    },
+    {
+        color: "#000080",
+        Name : "Navy",
+    },
+    {
+        color: "linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)",
+        Name : "linear-gradient",
+    },
 ]
 
 function change_color(){
@@ -50,6 +65,7 @@ function change(color,name){
         ele.style.background = color
         document.getElementById("name_color").innerText = color
         document.getElementById("ma_color").innerText = name
+        document.getElementsByClassName("color_display").style.background = color
     }
 }
 
